@@ -1,5 +1,21 @@
-# OPENRNDR template project
 
+
+
+# Custom OPENRNDR template project
+
+To create a new git repo,
+
+1   terminal: git remote remove origin
+2   top menu bar: git -> github -> Share Project on Github
+3   Declare name of new remote repo hosted on GH
+
+To check current URL,
+1   terminal: git remote -v
+
+
+
+
+# OPENRNDR template project
 A feature rich template for creating OPENRNDR programs based on [Gradle/Kts](https://en.wikipedia.org/wiki/Gradle).
 
 The template consists of a configuration for Gradle and two example OPENRNDR programs. The Gradle configuration should serve as the
